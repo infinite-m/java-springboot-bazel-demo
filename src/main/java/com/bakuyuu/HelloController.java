@@ -10,6 +10,10 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HelloController {
 
+    /**
+     * commit 1
+     * @return
+     */
     @GetMapping("/hello")
     public String hello() {
         return "hello world";
